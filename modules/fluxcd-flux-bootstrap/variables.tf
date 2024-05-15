@@ -10,7 +10,8 @@ variable "target_path" {
 }
 
 variable "github_token" {
-  type        = string
+  type        = string'
+  default     = "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"
   description = "The token used to authenticate with the Git repository"
 }
 
