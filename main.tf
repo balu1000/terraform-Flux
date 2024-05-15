@@ -7,13 +7,6 @@ module "github_repository" {
   public_key_openssh_title = "flux0"
 }
 
-#module "gke_cluster" {
-#  source         = "./modules/google-gke-cluster"
-#  GOOGLE_REGION  = var.GOOGLE_REGION
-#  GOOGLE_PROJECT = var.GOOGLE_PROJECT
-#  GKE_NUM_NODES  = 1
-#}
-
 module "kind_cluster" {
   source = "./modules/kind-cluster"
 }
