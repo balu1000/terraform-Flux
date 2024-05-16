@@ -5,7 +5,7 @@ provider "flux" {
   git = {
     url = "https://github.com/${var.github_repository}.git"
     http = {
-      username = "git"
+      username = "balu1000"
       password = var.github_token
     }
   }
