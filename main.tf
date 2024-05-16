@@ -11,7 +11,7 @@ module "gke_cluster" {
   source         = "./modules/google-gke-cluster"
   GOOGLE_REGION  = var.GOOGLE_REGION
   GOOGLE_PROJECT = var.GOOGLE_PROJECT
-  GKE_NUM_NODES  = 1
+  GKE_NUM_NODES  = var.GKE_NUM_NODES
 }
 
 #module "kind_cluster" {
