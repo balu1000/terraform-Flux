@@ -1,5 +1,6 @@
 variable "github_repository" {
   type        = string
+  default     = "flux-gitops"
   description = "GitHub repository to store Flux manifests"
 }
 
