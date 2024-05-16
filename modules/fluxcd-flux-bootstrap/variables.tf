@@ -5,7 +5,6 @@ variable "github_repository" {
 
 variable "target_path" {
   type        = string
-  default     = "clusters"
   description = "Flux manifests subdirectory"
 }
 
