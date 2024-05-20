@@ -29,7 +29,7 @@ jobs:
         with:
           registry: "ghcr.io"
           username: balu1000
-          password: ${{ secrets.GITHUB_TOKEN2 }}  
+          password: ${{ secrets.GITHUB_TOKEN }}  
       - name: Build&Push
         env:
           APP: "kbot"
