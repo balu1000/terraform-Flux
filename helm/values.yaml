@@ -5,7 +5,7 @@ replicaCount: 1
 image:
   registry: "ghcr.io"
   repository: "balu1000"
-  tag: "v1.0.6-2cc0be8"
+  tag: "v1.0.9-465f35f"
   os: linux
   arch: amd64
 secret:
